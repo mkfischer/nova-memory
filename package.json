@@ -1,6 +1,6 @@
 {
   "name": "@nova-mcp/mcp-nova",
-  "version": "0.1.0-beta",
+  "version": "0.1.2",
   "description": "AI Memory System for Claude & Cursor - Stop losing context. Start saving tokens.",
   "main": "nova-memory-mcp.mjs",
   "bin": {

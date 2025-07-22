@@ -166,6 +166,13 @@ Assistant: "Components depending on TokenService:
 
 ## 📊 Performance
 
+### ⚡ v0.1.2 Schema Fixes & Improvements
+- **Fixed Tool Schemas**: All meta-tools now have complete parameter definitions
+- **Memory Tool**: Fixed missing `content` and `query` parameters
+- **Board Tool**: Fixed missing `title` and `category` parameters  
+- **Quick Tool**: Fixed "undefined" entries - now requires proper parameters
+- **Workflow Tool**: Fixed missing `title` and `value` parameters
+
 ### ⚡ v0.1.0-beta Performance Improvements
 - **30-day Analysis Fix**: No more hanging when analyzing large datasets
 - **FTS-First Search**: Lightning-fast queries using SQLite FTS5
