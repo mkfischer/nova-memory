@@ -1,0 +1,24 @@
+{
+  "name": "@nova-mcp/mcp-nova",
+  "version": "0.1.0-beta",
+  "description": "AI Memory System for Claude & Cursor - Stop losing context. Start saving tokens.",
+  "main": "nova-memory-mcp.mjs",
+  "bin": {
+    "mcp-nova": "./nova-memory-cli.js",
+    "nova-memory-mcp": "./nova-memory-mcp.mjs"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "fs-extra": "^11.2.0"
+  },
+  "author": "Nova AI Team",
+  "license": "MIT",
+  "note": "Free for personal use. Source code is minified for IP protection."
+}

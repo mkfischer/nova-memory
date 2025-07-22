@@ -1,0 +1,34 @@
+# Local config files
+nova-memory.config.js
+
+# Installation scripts (platform-specific)
+install.sh
+
+# npm package artifacts
+*.tgz
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+.nova/
+
+# Temporary files
+*.tmp
+*.log
+
+# GitHub-specific files we don't need
+GITHUB-RELEASE.md
+
+# Archive files
+*.tar.gz
+*.zip

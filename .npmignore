@@ -1,0 +1,23 @@
+# Development files
+*.log
+*.tmp
+.DS_Store
+
+# Config files that shouldn't be published
+nova-memory.config.js
+
+# Installation scripts (platform-specific)
+install.sh
+
+# Any local database files
+*.db
+.nova/
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Build artifacts
+*.tgz
